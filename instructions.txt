@@ -1,0 +1,16 @@
+# goal
+Generate an effective mnemonic for given flashcard.
+
+# input
+Flashcard described by n data fields (some might be empty).
+* format: field1: data1 | field2: data2 | ... | fieldn: datan
+
+# output
+Short mnemonic linking all provided data fields.
+* Use memorable imagery or simple stories.
+* Keep it concise but catchy, easy to recall.
+* If possible include a clear sound or visual link.
+
+# example
+* input: "kanji: 高い | kana: たかい | meaning: tall, expensive"
+* output: "Being tall is expensive - you need a special tall car (たかい)."

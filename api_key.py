@@ -1,0 +1,1 @@
+api_key = "PASTE YOUR OPEN AI API KEY HERE"
