@@ -16,8 +16,8 @@ Once your setup you need to follow these three simple steps to create your anki 
 Before creating a new .tsv file in the data folder choose the anki model you want to use. For this example we are going to use jp-vocab. Opening the fields.txt file we can see that the model expects four fields: `Kanji, Kana, Meaning, Mnemonic`. The last field `Mnemonic` will be created automatically by mnemonic.py once we run it, i.e. our .tsv file should look as follows (we will look at the lesson.tsv file for all examples).
 ```
 Kanji	Kana	Meaning
-聞いてください	きいてください	please lisen
-書いてください	かいてください	please write
-読んでください	よんでください	please read
+聞いて下さい	きいてください	please lisen
+書いて下さい	かいてください	please write
+読んで下さい	よんでください	please read
 ...
 ```
