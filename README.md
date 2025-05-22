@@ -37,3 +37,17 @@ Kanji	Kana	Meaning	Mnemonic
 ```
 
 # Anki Cards
+Finally we can create our desiered anki cards. To do so open your terminal and run ankicards.py passing in `--file --anki` arguments as needed. `--file` chooses the .tsv out file to use and should be passed. As before make sure to only pass in the filename not the extension e.g. `--file lesson`. `--anki` chooses the anki model to use and should be passed as well e.g. `jp-vocab`. Make once again sure that your .tsv out file matches its header to the required anki model fields. In our example we need `Kanji, Kana, Meaning, Mnemonic` which we correctly have.
+```
+python ankicards.py --file lesson --anki jp-vocab
+```
+After this script finishes there will be a ready to import .apkg file. Once imported to Anki you can sort the cards away how you like.
+
+# New Anki Models
+With this project are 4 models provided, 2 of which are kinda specific to my personal needs, and 2 of which are very basic. If you wish to create your own model, you can do so by adding a folder with your model name into the anki folder e.g. `anki/my-model`. You now need to create 3 files inside your model folder as well as at least one further subfolder.
+* my-model/settings.json: Needs to contain an object with the following properties. `id.model, id.deck` unique integer - ids for your model and deck (hardcoded). `name.model` string - how your model is called. `name.card` array of strings - how each of your models cards are called. `card_num` integer - the number of cards of your model.
+* my-model/style.css: Needs to be there, even if you dont use any css on your cards. Should contain all css to apply to your models cards. 
+* my-model/fields.txt: Optional but highly recomended. Simply write down the exact field names and order for your model. This makes it easier to create proper .tsv data files.
+Finally you need to create a subforder called `my-model/cardN` where N is a integer starting with 0, for each card (template) your model produces. Inside of each cardN folder you should create 2 .html files that describe that anki card (template) - just as you do in Anki.
+* my-model/cardN/question.html: Has to be there and should contain the html that describes that anki cards (template) front side.
+* my-model/cardN/answer.html: Has to be there and should contain the html that describes that anki cards (template) back side.
