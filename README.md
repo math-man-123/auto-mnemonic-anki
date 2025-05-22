@@ -4,4 +4,4 @@ This project allows you to generate effective mnemonics using OpenAI GPT models 
 * ankicards.py: creates anki cards from given .tsv file with given anki model
 
 # Setup
-First you will need an OpenAI API key. To create one head to [platform.openai.com/api-keys]
+First you will need an OpenAI API key. To create one head to (platform.openai.com/api-keys)[platform.openai.com/api-keys]
