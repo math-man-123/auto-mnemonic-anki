@@ -1,0 +1,2 @@
+Not needed for the code, but handy for the human!
+expected fields: Front, Back, Mnemonic

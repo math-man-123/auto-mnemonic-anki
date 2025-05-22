@@ -1,0 +1,11 @@
+{
+    "id": {
+        "model": 1426631047,
+        "deck": 1225821009
+    },
+    "name": {
+        "model": "Basic (and reversed) [+AI]",
+        "card": ["Front to Back", "Back to Front"]
+    },
+    "card_num": 2
+}

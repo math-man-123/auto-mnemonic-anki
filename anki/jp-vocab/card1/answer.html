@@ -1,0 +1,15 @@
+{{FrontSide}}<hr />
+<div id="answer">
+    <span>{{Kanji}}</span>
+    <span>{{Kana}}</span>
+</div>
+<div id="mnemonic">AI: {{Mnemonic}}</div>
+<script>
+    function fixMissingKanji() {
+        let answer = document.getElementById('answer');
+        let spans = answer.querySelectorAll('span');
+        for (let span of spans)
+            if (!span.innerHTML) span.innerHTML = '×'
+    }
+    fixMissingKanji();
+</script>

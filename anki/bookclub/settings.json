@@ -1,0 +1,11 @@
+{
+    "id": {
+        "model": 1935104227,
+        "deck": 1352654211
+    },
+    "name": {
+        "model": "BookClub [+AI]",
+        "card": ["VocabToMeaning", "MeaningToVocab"]
+    },
+    "card_num": 2
+}

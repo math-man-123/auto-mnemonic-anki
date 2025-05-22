@@ -1,0 +1,59 @@
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.flex, .flex > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left:not(:empty) + .right:not(:empty)::before {
+    content: "-";
+    margin-inline: 20px;
+}
+
+#task {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-inline: auto;
+    width: max-content;
+    background: #9f00ef;
+    border-radius: 10px;
+    padding-block: 15px;
+    padding-inline: 20px;
+    text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#answer {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#note, #mnenomic {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#mnenomic {
+    margin-bottom: 30px;
+}
+
+
+#page {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-variant: small-caps;
+}
+
+#page > span {
+    margin-left: 20px;
+    font-size: 30px;
+}
