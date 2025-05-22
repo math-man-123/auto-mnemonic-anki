@@ -30,7 +30,7 @@ python mnemonics.py --file lesson --cols 0-1-2
 We now created a new .tsv file in the out folder. In our example the AI generated the following mnemonics. Keep in mind that you can always tweak the instructions for the AI to change how the mnemonics turn out. Simply open instructions.txt and change them as you desire.
 ```
 Kanji	Kana	Meaning	Mnemonic
-聞いて下さい	きいてください	please lisen	"""Keen ears (きいて) please! Listen up when you see 聞いてください."""
+聞いて下さい	きいてください	please lisen	Keen ears (きいて) please! Listen up when you see 聞いてください.
 書いて下さい	かいてください	please write	Imagine a kite (かい) writing (書) a note—please write (ください) it down!
 読んで下さい	よんでください	please read	Imagine a librarian saying, “Please read (yawn) the book” — よんでください (yo-n-de-kuda-sai).
 ...
