@@ -32,7 +32,7 @@ We now created a new .tsv file in the out folder. In our example the AI generate
 Kanji	Kana	Meaning	Mnemonic
 聞いて下さい	きいてください	please lisen	Keen ears (きいて) please! Listen up when you see 聞いてください.
 書いて下さい	かいてください	please write	Imagine a kite (かい) writing (書) a note—please write (ください) it down!
-読んで下さい	よんでください	please read	Imagine a librarian saying, “Please read (yawn) the book” — よんでください (yo-n-de-kuda-sai).
+読んで下さい	よんでください	please read	Imagine a librarian saying, “Please read (yawn) the book” — よんでください.
 ...
 ```
 
