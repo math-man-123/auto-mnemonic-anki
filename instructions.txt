@@ -7,9 +7,8 @@ Flashcard described by n data fields (some might be empty).
 
 # output
 Short mnemonic linking all provided data fields.
-* Use memorable imagery or simple stories.
-* Keep it concise but catchy, easy to recall.
-* If possible include a clear sound or visual link.
+* The key link should be made between the kana and meaning.
+* Use a english key word that sounds similar to the kana.
 
 # example
 * input: "kanji: 高い | kana: たかい | meaning: tall, expensive"
