@@ -1,8 +1,20 @@
 {{FrontSide}}<hr />
 <div id="answer">
-    <span>{{Kana}}</span>
+    <span id="kana">{{Kana}}</span>
     <span>{{Meaning}}</span>
 </div>
 <div id="mnenomic">
     <b>AI:</b><span>{{Mnemonic}}</span>
 </div>
+<script>
+    function fixMissingKanji() {
+        let task = document.getElementById('task');
+        let kana = document.getElementById('kana');
+        let answer = document.getElementById('answer');
+        if (task.innerHTML == kana.innerHTML) {
+            kana.innerHTML = '';
+            answer.style.gap = '0';
+        }
+    }
+    fixMissingKanji();
+</script>

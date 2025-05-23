@@ -1,9 +1,13 @@
-Tell the kana and meaning.
+<span id="inst">Tell the kana and meaning.</span>
 <div id="task">{{Kanji}}</div>
 <script>
     function fixMissingKanji() {
         let task = document.getElementById('task');
-        if (!task.innerHTML) task.innerHTML = '{{Kana}}'
+        let inst = document.getElementById('inst');
+        if (!task.innerHTML) {
+            task.innerHTML = '{{Kana}}';
+            inst.innerHTML = 'Tell the meaning.';
+        }
     }
     fixMissingKanji();
 </script>
