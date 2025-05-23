@@ -8,6 +8,19 @@
 
 #mnemonic {
     font-size: 1rem;
-    font-style: italic;
     margin-top: 1rem;
+}
+
+#mnenomic > span {
+    margin-left: 1rem;
+    color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 50ms;
+    font-style: italic;
+}
+
+#mnenomic:hover > span {
+    color: unset;
+    background: none;
+    filter: none;
 }

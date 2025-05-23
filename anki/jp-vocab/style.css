@@ -29,9 +29,21 @@
 }
 
 
-
-#mnemonic {
-    font-size: 14px;
-    font-style: italic;
+#mnenomic {
+    font-size: 16px;
     margin-top: 15px;
+}
+
+#mnenomic > span {
+	margin-left: 15px;
+	color: transparent;
+  background: rgba(0,0,0,0.5);
+	transition: 50ms;
+	font-style: italic;
+}
+
+#mnenomic:hover > span {
+	color: unset;
+  background: none;
+	filter: none;
 }

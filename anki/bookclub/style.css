@@ -38,13 +38,25 @@
 
 #note, #mnenomic {
     font-size: 16px;
-    font-style: italic;
 }
 
 #mnenomic {
     margin-bottom: 30px;
 }
 
+#mnenomic > span {
+    margin-left: 15px;
+    color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 50ms;
+    font-style: italic;
+}
+
+#mnenomic:hover > span {
+    color: unset;
+    background: none;
+    filter: none;
+}
 
 #page {
     font-size: 18px;
